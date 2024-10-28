@@ -21,7 +21,7 @@ const routes = [
         path: "/contacts/:id",
         name: "contact.edit",
         component: () => import("@/views/ContactEdit.vue"),
-        props: true // Truyền các biến trong $route.params vào làm props
+        props: true
     },
 ];
 const router = createRouter({
